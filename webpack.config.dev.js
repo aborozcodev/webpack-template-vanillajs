@@ -4,7 +4,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const Dotenv = require('dotenv-webpack')
 
-/** @type {import('webpack').Configuration} */
 module.exports = {
     entry: './src/index.js',
     output: {
